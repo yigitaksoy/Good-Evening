@@ -54,15 +54,8 @@ svg {
   animation: moon-anim 7s alternate-reverse infinite linear;
 }
 
-@-webkit-keyframes moon-anim {
-  from {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
-  to {
-    -webkit-transform: translateX(-100);
-            transform: translateX(-100);
-  }
+#space-dude {
+  animation: space-dude 20s alternate-reverse infinite linear;
 }
 
 @keyframes moon-anim {
@@ -75,4 +68,16 @@ svg {
             transform: translateX(-100);
   }
 }
+
+@keyframes space-dude {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-100);
+            transform: translateX(-100);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
